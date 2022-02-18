@@ -1,0 +1,245 @@
+@font-face {
+    font-family:"Netflix Sans" ;
+    src: url("https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2");
+}
+body{
+    background-color: #141414;
+    margin: 0px;
+}
+
+h1{
+    font-family: "Netflix Sans" ;
+    color: beige;
+    font-size: 3.3vw;
+}
+
+#nav-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    padding: 0%;
+    height: 7%;
+    margin-left: 5%;
+    position: fixed;
+    width:90%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#nav-1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-1 a img{
+    width:6vw;
+    
+}
+
+#first-menu{
+    list-style-type: none;
+    display: flex;
+    margin-left: 1%;
+    width: 40%;
+    
+}
+
+#first-menu li{
+    margin-left: 4%;
+    flex-wrap: wrap;
+}
+
+#first-menu li a{
+    color: aliceblue;
+    font-family: "Netflix Sans" ;
+    text-decoration: none;
+    font-size: 1vw;
+    display: flex; 
+}
+
+#first-menu li #inicio{
+    font-weight: bold;
+}
+
+#first-menu li a:hover{
+    color:rgb(180, 187, 190);
+}
+
+#second-menu{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 2.5%;
+    
+}
+#second-menu span{
+    margin-right: 20%;
+}
+
+#second-menu span i{
+    color: aliceblue;
+    
+}
+
+#second-menu span a img{
+    width: 2vw;
+    border-radius: 5px;
+}
+
+.bi {
+    font-size: 1.5vw;
+  }
+
+#movie-preview{
+    height:50vmax;
+    background-image: url(../img/movie-bg.webp);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+#movie-description {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 40%;
+    color: aliceblue;
+    font-family: "Netflix Sans";
+}
+
+#movie-description img{
+    width: 30vw;
+}
+#movie-description #top-n {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+#movie-description #description{
+    font-size: 1.3vw;
+}
+
+#description-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#description-buttons .description-button{
+    border: none;
+    border-radius: 4px;
+    padding: 0% 4%;
+    font-family: "Netflix Sans";
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#description-buttons #play-button{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+
+}
+
+#description-buttons #play-button:hover{
+    background-color: rgb(206, 199, 199);
+}
+
+#description-buttons #play-button div{
+    width: 1em;
+}
+
+#description-buttons #info-button{
+    background-color: rgb(107, 113, 117);
+    color: #ffffff;
+    margin-left: 3%;
+}
+
+#description-buttons #info-button:hover{
+    background-color: rgb(60, 62, 63);
+}
+
+#description-buttons #info-button div{
+    width: 1em;
+}
+.bi-info-circle {
+    font-size: 3vw;
+}
+
+.bi-play-fill {
+    font-size: 3vw;
+}
+
+#tv-pg{
+    background-color: rgb(125, 138, 138);
+    width: 10vw;
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    height: 4vh;
+    font-family: "Netflix Sans";
+    text-align:center;
+    border-style: solid;
+    border-left-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+#tv-pg p{
+    color: #ffffff;
+}
+
+.movies-section{
+    margin: 1% 3%;
+}
+
+.movies-section p{
+    font-family: "Netflix Sans";
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#movies{
+    display: flex;
+    flex-direction: row;
+}
+
+#movies img{
+    width: 15vw;
+    border-radius: 1px;
+    margin: 0.2%;
+}
+
+footer{
+    width: 90%;
+    margin-left: 5%;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+    margin-left: auto;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #9c8f8f;
+    font-family: "Netflix Sans";
+}
+
+footer #social-net li{
+    margin-right: 2%;
+}
+
+footer #social-net li i{
+    color: #ffffff;
+}
+
+footer #last-menu{
+    flex-flow:row wrap;
+}
+footer #last-menu li{
+    width: 40%;
+}
+

@@ -1,0 +1,110 @@
+@font-face {
+    font-family:"Netflix Sans" ;
+    src: url("https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2");
+}
+body{
+    background-color: #141414;
+}
+
+h1{
+    font-family: "Netflix Sans" ;
+    color: beige;
+    font-size: 3.3vw;
+}
+
+#nav-1{
+    display: flex;
+    justify-content: first;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1.5%;
+   
+}
+
+#nav-1 a img{
+    flex: auto;
+    width:7vw ;
+}
+
+#general{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+
+}
+
+#profiles{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    
+    
+    
+}
+
+#profiles section{
+   
+   
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+#profiles section article{
+    
+}
+
+#profiles section article a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(102, 108, 114);
+    font-family: "Netflix Sans";
+    
+}
+
+
+#profiles section article a img{
+    width: 80%;
+    border-radius: 5px;
+    border: solid 3px transparent;
+   
+}
+
+#profiles section article a:hover .img-profile{
+    border-color: aliceblue;
+    border-style: solid;
+   
+ 
+}
+
+#profiles section article a:hover .name-profile{
+    color: aliceblue;
+    
+}
+#link-manage-profile{
+    text-decoration: none;
+    width: 15vw;
+    border-style: solid;
+    border-color:rgb(102, 108, 114);
+    color: rgb(102, 108, 114);
+    padding: 0.5% 2%;
+    font-family: "Netflix Sans";
+    text-align: center;
+    font-size: 1.4vw;
+    margin-top: 5%;
+}
+
+#link-manage-profile:hover{
+    color: aliceblue;
+    border-color: aliceblue;
+}
